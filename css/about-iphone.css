@@ -1,0 +1,15 @@
+
+  .play,.play1,.play2{
+	  justify-content: center;
+	  align-items: center;
+  }
+ span{
+	 display: block;
+	 margin-left:0 !important;
+ }
+ .vs{
+	 flex-direction: column;
+ }
+ .vs span{
+	 margin: 50px 0;
+ }

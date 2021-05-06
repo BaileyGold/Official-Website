@@ -1,0 +1,80 @@
+#app{
+	margin-top: 8rem;
+}
+.person{
+	margin: 0;
+	overflow: hidden;
+}
+.props{
+	margin-top: 50px;
+	overflow: hidden;
+}
+.list{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.list li{
+	position: relative;
+	display: felx;
+	flex-direction: column;
+	width: 220px;
+}
+.list li img{
+	width: 220px;
+	height: 350px;
+	display: block;
+}
+.list li p{
+	min-height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px !important;
+	line-height: 28px !important;
+	
+}
+.list li span{
+	display: block;
+	border-radius: 60px;
+	background: none;
+	border: 1px solid #f3c047;
+	padding: 12px 30px;
+	margin-bottom:20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+.list li a{
+	display: block;
+	border-radius: 60px;
+	background: none;
+	border: 1px solid #f3c047;
+	text-align: center;
+	color: #f3c047!important;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 12px 30px;
+	cursor: pointer;
+	line-height: 20px;
+}
+
+.list li a:hover {
+	    background: #f3c047;
+	    color: #fff!important;
+	    border: 1px solid #f3c047;
+	}
+.level{
+	position: absolute;
+	top: 20px;
+	left: 80px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #f3c047;
+	border: 1px solid #333;
+}

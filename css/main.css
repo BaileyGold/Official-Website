@@ -1,0 +1,204 @@
+
+  /* 轮播视频 */
+  
+  .iphone-banner-container{
+	  display: none;
+  }
+  
+  .container section {
+     position: relative;
+	 width: 100%;
+  }
+  
+  .swiper-container{
+      --swiper-theme-color: #f3c047;
+    }
+  
+  .video-banner-container,.swiper-wrapper,.swiper-slide{
+	width: 100%;
+	height: 60rem;
+  }
+  
+  .video-banner-container{
+	  height: 75rem;
+  	  margin-top: 8rem;
+  }
+  
+  .video-banner-container .swiper-banner{
+	  height: 75rem;
+  }
+  
+  .swiper-slide > a >img{
+	  display: block;
+	  width: 100%;
+	  height: 100%;
+  }
+  
+  /* 宣传视频 */
+ 
+  /* 公司简介 */
+
+.home_show {
+    margin: 0;
+    padding: 0;
+    background: url(../img/banner05c.dd64236b.jpg) 0 0 no-repeat!important;
+    background-size: cover!important;
+    width: 100%;
+    /* height: 90rem; */
+    position: relative;
+    overflow: hidden;
+}
+
+.blank40, .blank45 {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    overflow: hidden;
+}
+.blank40 {
+    height: 40px;
+}
+.home_show_list {
+    width: 100%;
+    margin: 0 auto;
+    /* display: table; */
+}
+
+.home_show_swiper{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.home_show_item{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.home_show_item img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	/* margi; */
+}
+
+  /* 合作伙伴 */
+  .link {
+      background: #f5f5f5;
+      width: 100%;
+      clear: both;
+      overflow: hidden;
+      padding: 20px 0;
+      border-bottom: 0 solid #777;
+  }
+  .width1200 {
+      width: 100%;
+      padding: 0 25px;
+      margin: 0 auto;
+      display: block;
+  }
+  .link .link_list {
+      display: block;
+      margin: 8px 0;
+  }
+  .link .link_list span {
+      color: #222;
+      font-weight: 700;
+      font-size: 15px;
+  }
+  .link .link_list a {
+      color: #555;
+      padding: 0 10px;
+      font-size: 14px;
+  }
+  
+.home_service li a:hover i img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+	transition: .5s;
+}
+
+.home_service li a:hover p span {
+    margin: 0 auto;
+	transition: .5s;
+}
+
+.home_service li a:hover p b {
+    margin: 40px auto 10px auto;
+	transition: .5s;
+}
+
+.home_service li a:hover p cite {
+    margin: 40px auto 0 auto;
+    background: #f3c047;
+    color: #fff;
+    border: 1px solid #f3c047;
+    opacity: 1;
+}
+
+.my_box:hover {
+    border-bottom: 1px solid #f3c047!important;
+    background: #fff;
+}
+.my_box:hover .box_time {
+    border: 1px solid #f3c047;
+    background: #f3c047;
+}
+.my_box:hover b {
+    color: #f3c047!important;
+}
+.my_box:hover .box_time cite, .my_box:hover .box_time i {
+    color: #fff;
+}
+.my_box_list:hover {
+    border-bottom: 1px solid #f3c047!important;
+    background: #fff;
+}
+.my_box_list:hover .box_pic img {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transition: .5s;
+}
+.my_box_list:hover b {
+    color: #f3c047!important;
+}
+
+.my_box_big:hover {
+    background: #fff;
+}
+.my_box_big:hover .box_pic img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+	transition: .5s;
+}
+.my_box_big:hover b {
+    color: #f3c047!important;
+}
+
+
+.home_map a:hover b {
+    display: table;
+}

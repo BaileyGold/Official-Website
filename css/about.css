@@ -1,0 +1,56 @@
+
+#app{
+	margin-top: 8rem;
+}
+.introduction{
+	margin: 0;
+	overflow: hidden;
+}
+.play,.play1,.play2{
+	display: flex;
+	flex-direction: column;
+}
+
+.play span{
+	font-size: 18px;
+	margin-left: 25%;
+	margin-bottom: 20px;
+}
+.play img{
+	width: 220px;
+	height: 350px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.play1 p,.play2 p{
+	margin: 0;
+}
+.play1 .cardSlot{
+	width: 280px;
+	height: 420px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.play1 h2{
+	margin:0 auto;
+	font-size:28px;
+	margin-bottom: 30px;
+}
+.vs{
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.vs img{
+	width: 220px;
+	height: 350px;
+	display: block;
+}
+.vs span{
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0 50px;
+}
